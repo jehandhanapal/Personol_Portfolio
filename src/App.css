@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 #root {
-  max-width: 1280px;
-  margin: 0 ;
-  padding: 0;
+  max-width: 100vw;
   text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #000814;
+  /* background-color: #fff; */
   box-sizing: border-box;
+  font-family: Roboto;
+  letter-spacing: 0.7px;
 }

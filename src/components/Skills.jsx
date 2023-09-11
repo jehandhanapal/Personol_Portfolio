@@ -1,9 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
 
 export default function Skills() {
   return (
-    <div>
+    <Container className='w-[85%] my-20'>
       Skills
-    </div>
+    </Container>
   )
 }
+const Container = styled.div`
+  
+
+`
