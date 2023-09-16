@@ -29,36 +29,54 @@ export default function Navbar() {
             </span>
           </button>
         </div>
-        <div className="lg:flex items-center lg:relative md:flex text-white absolute md:left-[30%] left-[38%] lg:left-2 mr-6 top-5 lg:top-0">
-          <img src="/pngegg(1).png" alt="kk" className="lg:w-[60px] md:w-[50px] w-[80px] lg:h-[60px] md:h-[50px] h-12 " />
+        <Link to="/hero" className="lg:flex items-center cursor-pointer lg:relative md:flex text-white absolute md:left-[30%] left-[38%] lg:left-2 mr-6 top-2 lg:top-0">
+          <img src="/pngegg(1).png" alt="kk" className="lg:w-[60px] md:w-[50px] w-[50px] lg:h-[50px] md:h-[50px] h-12 " />
           <span className="font-semibold text-2xl ml-3 lg:inline-block md:inline-block hidden  ">Jehan.dev</span>
-        </div>
+        </Link>
 
         <div className="w-full block lg:justify-center lg:ml-12  lg:flex lg:items-center lg:w-auto">
           <div ref={displayref} className="text-base hidden font-medium lg:flex-grow lg:flex lg:justify-center">
-            <Link to="/our_vehicles" className="block mt-4 lg:focus:border-b-2 lg:focus:border-blue-500 lg:inline-block lg:mt-0 lg:mr-2 text-white hover:text-blue-600 p-2 transition-all">
+            <Link to="projects" className="block mt-4 lg:focus:border-b-2 lg:focus:border-blue-500 lg:inline-block lg:mt-0 lg:mr-2 text-white cursor-pointer hover:text-blue-600 p-2 transition-all"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}>
               Projects
             </Link>
-            <Link to="/our_packages" className="block mt-4 lg:focus:border-b-2 lg:focus:border-blue-500 lg:inline-block lg:mt-0 lg:mr-2 text-white hover:text-blue-600 p-2 transition-all">
+            <Link to="skills" className="block mt-4 lg:focus:border-b-2 lg:focus:border-blue-500 lg:inline-block lg:mt-0 lg:mr-2 text-white cursor-pointer hover:text-blue-600 p-2 transition-all"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}>
               Skills
             </Link>
             <Link
-              to="testimonials"
-              className="block mt-4 lg:focus:border-b-2 lg:focus:border-blue-500 lg:inline-block lg:mt-0 lg:mr-2 text-white hover:text-blue-600 p-2 transition-all cursor-pointer"
+              to="about"
+              className="block mt-4 lg:focus:border-b-2 lg:focus:border-white-500 lg:inline-block lg:mt-0 lg:mr-2 text-white hover:text-blue-600 p-2 transition-all cursor-pointer"
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={800}
             >
               About
             </Link>
+            <Link
+              to="contact"
+              className="block mt-4 lg:focus:border-b-2 lg:focus:border-white-500 lg:inline-block lg:mt-0 lg:mr-2 text-white hover:text-blue-600 p-2 transition-all cursor-pointer"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={900}
+            >
+              Contact
+            </Link>
           </div>
         </div>
-        <div className="inline-flex gap-4  lg:right-8 md:right-2 right-0 top-8 lg:top-10 ">
-          <a className="text-white text-2xl">
+        <div className="inline-flex gap-4 absolute lg:relative  lg:right-8 md:right-2 right-0 top-5 lg:top-0 ">
+          <a href="https://github.com/jehandhanapal" target="_blank" className="text-white cursor-pointer transition-all hover:text-blue-600 text-2xl">
             <BsGithub />
           </a>
-          <a className="text-white text-2xl">
+          <a href="https://www.linkedin.com/in/jehan-dhanapal-0a556a291/" target="_blank" className="text-white cursor-pointer transition-all hover:text-blue-600 text-2xl">
             <AiFillLinkedin />
           </a>
         </div>
