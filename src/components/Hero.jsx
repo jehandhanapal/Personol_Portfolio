@@ -13,16 +13,14 @@ export default function Hero() {
         <div className="lg:text-5xl md:text-4xl text-2xl font-bold">
           <h4>Frontend Developer</h4>
         </div>
-        <div className="lg:text-base text-sm text-gray-300">
-          <p>I build accessible, inclusive products and digital experiences for the web.</p>
-          <p className="text-xs text-gray-400 mt-8 w-3/4 font-thin leading-5">
-            As a 25 years old fresh and passionate Front-End Developer, I am eager to embark on my journey in the world of web development, armed with a strong foundation in HTML, CSS, and JavaScript (EcmaScript6). My
-            curiosity drives me to stay up-to-date with the latest industry trends and emerging technologies such as responsive web design, CSS frameworks like Bootstrap and Tailwind Css and JavaScript libraries like
-            React Js and tools like Git, Github, and Vite. I am excited to leverage these tools to create engaging and accessible websites that enhances the User experience.
+        <div className="lg:text-sm text-sm text-gray-400">
+          <p>
+            As a 25 years old fresh and passionate Front-End Developer, I'm eager to<br/> embark my journey in the world of web development and i can build<br/> accessible, inclusive products and digital experiences for the
+            web applications.
           </p>
         </div>
         <div>
-          <button className="lg:text-base text-sm px-8 py-3 my-4 font-medium">
+          <button className="lg:text-base text-sm px-8 py-3 my-6 font-medium">
             <a href={resume} target="_blank" className="bg-transparent text-white">
               Resume
             </a>
