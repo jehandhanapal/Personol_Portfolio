@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
         <div className="lg:text-sm text-sm text-gray-400">
           <p>
-            As a 25 years old fresh and passionate Front-End Developer, I'm eager to<br/> embark my journey in the world of web development and i can build<br/> accessible, inclusive products and digital experiences for the
+            As a 25 years old fresh and passionate Front-End Developer<br/> I'm eager to embark my journey in the world of web development and i can<br/> build accessible, inclusive products and digital experiences for the
             web applications.
           </p>
         </div>
